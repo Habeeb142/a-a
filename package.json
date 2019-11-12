@@ -27,7 +27,7 @@
     "express": "^4.16.4",
     "formidable": "^1.2.1",
    
-    "request" : "^2.88.0"
+    "request" : "^2.88.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
