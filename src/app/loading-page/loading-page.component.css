@@ -1,0 +1,47 @@
+.body {
+    background-color: rgba(16,14,23);
+    height: 100vh;
+    padding-top: 70px
+}
+
+blockquote {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+img {
+    box-shadow: 1px 1px 8px 4px whitesmoke
+}
+
+#welcome {
+    font-size: 23px
+}
+
+#attorney {
+    font-size: 27px;
+    font-weight: bold
+}
+
+#wait {
+    padding: 3px 6px 3px 6px;
+    margin-top: 7px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: #165153;
+    font-size: 14px
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+    #welcome {
+        font-size: 17px;
+    }
+
+    #attorney {
+        font-style: 20px
+    }
+
+    .body {
+        padding-top: 50px
+    }
+}

@@ -1,0 +1,102 @@
+.home-body1 {
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    z-index: -1;
+}
+
+.navbar-address {
+    background-color: rgba(16,14,23);
+}
+.img {
+    opacity: .3;
+    height: 80vh
+}
+
+.carousel-caption {
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h5 {
+    font-size: 38px;
+    /* font-weight: bold; */
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+    color: grey
+}
+
+.legal {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.a {
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+    font-style: normal
+}
+
+.card {
+    box-shadow: 0 4px 5px 0 white;
+    background-color: rgb(209, 216, 223);
+    color: rgb(23, 16, 48);
+}
+
+.expertise {
+    color: rgb(209, 216, 223);
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 3px double rgb(23, 16, 48);
+    color: rgb(209, 216, 223);
+}
+
+.a:hover {
+    border: 1px solid grey;
+}
+blockquote {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: grey
+}
+
+.head {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.footer {
+    color: whitesmoke;
+    background-color: rgb(23, 16, 48);
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+@media screen and (max-width: 600px) {
+    .img {
+        height: 50vh
+    }
+    .carousel-caption {
+        top: 5px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    .card-header {
+        font-size: 14px;
+        font-weight: bold
+    }
+}

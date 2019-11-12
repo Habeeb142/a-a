@@ -1,0 +1,36 @@
+.nav-item {
+    color: grey;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+nav {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    
+}
+
+a {
+    text-decoration: none
+}
+
+.home:hover {
+    border-bottom: 1px solid white
+}
+
+.partners:hover {
+    border-bottom: 1px solid white
+}
+
+.about:hover {
+    border-bottom: 1px solid white
+}
+
+.service:hover {
+    border-bottom: 1px solid white
+}
+
+.contact:hover {
+    border-bottom: 1px solid white
+}

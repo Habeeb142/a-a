@@ -1,0 +1,12 @@
+
+.card-body {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-body {
+        font-size: 16px
+    }
+}

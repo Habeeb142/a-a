@@ -1,0 +1,20 @@
+.container, .last {
+    color: rgb(209, 216, 223);
+}
+
+input, textarea, .form-control {
+    background-color: rgb(209, 216, 223);
+}
+
+.group {
+    border-bottom: 1px solid rgb(209, 216, 223)
+}
+
+.last {
+    font-size: 13px;
+    text-align: center
+}
+
+#map {
+    height: 400px;
+}

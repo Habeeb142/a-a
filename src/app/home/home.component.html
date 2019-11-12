@@ -1,0 +1,104 @@
+<!-- Load Page Logo Display onload -->
+<div class="load-page animated">
+  <app-loading-page></app-loading-page>
+</div>
+<!-- end -->
+
+<div class="navbar-address sticky-top">
+  <app-navbar-address></app-navbar-address>
+  <app-navbar></app-navbar> 
+</div>
+
+<div class="bd-example home-body1" id="home"  onscroll="chk()">
+    <div id="carousel" class="carousel animated bounceInDown" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active animated fadeIn">
+          <img src="assets/pic2.jpg" class="d-block img w-100" alt="...">
+          <div class="carousel-caption d-block animated zoomInUp mt-md-5">
+              <h5>In Need of Legal Services?</h5>
+              <p>Do not hesitate to click below... <i class="ml-3 fa fa-hand-o-down"></i></p>
+              <a class="a mt-3 contact" href="#contact">Contact Us</a>
+              <blockquote>
+                There is no crueler tyranny than <br /> that which is perpetuated under the shield<br /> of law and in the name of justice. 
+                <span style="color: grey; border-bottom: 1px solid white">Montesquieu</span> 
+              </blockquote>
+              
+          </div>
+        </div>
+        <div class="carousel-item animated fadeIn">
+          <img src="assets/pic2.jpg" class="d-block w-100 img" alt="...">
+          <div class="carousel-caption d-block animated zoomInDown mt-md-5">
+            <h5>More about A & A Attorneys?</h5>
+            <p>Feel free to click below... <i class="ml-3 fa fa-hand-o-down"></i></p>
+            <a class="a mt-3" href="">About Us</a>
+            <blockquote>
+                In law a man is guilty when he violates the rights of others. <br />In ethics he is guilty if he only thinks of doing so.
+                <br />
+              <span style="color: grey; border-bottom: 1px solid white">Immanuel Kant</span> 
+            </blockquote>
+
+          </div>
+        </div>
+        <div class="carousel-item animated fadeIn">
+          <img src="assets/pic2.jpg" class="d-block w-100 img" alt="...">
+          <div class="carousel-caption d-block animated bounceInUp mt-md-5">
+            <h5>We are here because of you!...</h5>
+            <p>Click below and Know us better<i class="ml-3 fa fa-hand-o-down"></i></p>
+            <a class="a mt-3 contacts" href="#contact">Contact Us</a>
+            <blockquote>
+              The moral arc of the universe is long, <br />but it bends towards justice<br /> of law and in the name of justice. 
+              <span style="color: grey; border-bottom: 1px solid white">Martin Luther King</span> 
+            </blockquote>
+
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</div>
+
+<div class="little-about-us animated">
+  <app-little-about-us></app-little-about-us>
+</div>
+
+<div class="expertise mt-5" id="expertise">
+  <div class="card-header mb-5" style="border-color: rgb(209, 216, 223);">
+    <i class="fa fa-dot-circle-o mr-2"></i> A Complete Law Firm and An Enormous Expertise <i class="fa fa-dot-circle-o ml-2"></i>
+  </div>
+  
+  <app-expertise></app-expertise>
+</div>
+
+<div class="card container mt-4 mb-4 p-5 animated">
+  <div class="card-header col-md-12" style="color: black">
+      <i class="fa fa-dot-circle-o mr-2"></i> WHAT WE ARE KNOWN FOR <i class="fa fa-dot-circle-o ml-2"></i>
+  </div>
+  <app-known-for></app-known-for>
+  <div class="card-footer">
+    <blockquote class="text-center">
+        Truth never damages a cause that is just. <br />
+        <span style="color: grey; border-bottom: 1px solid white">Mahatma Gandhi</span> 
+    </blockquote>
+
+  </div>
+</div>
+
+
+<div class="footer mt-5" id="contact">
+  <div class="card-header mb-5" style="border-color: rgb(209, 216, 223);">
+      <i class="fa fa-dot-circle-o mr-2"></i> Feel Free to Contact Us <i class="fa fa-dot-circle-o ml-2"></i>
+  </div>
+  <app-footer></app-footer>
+</div>

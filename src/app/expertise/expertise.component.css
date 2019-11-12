@@ -1,0 +1,40 @@
+a {
+    opacity: .8;
+    border-bottom: 0;
+    text-decoration: none;
+    scroll-snap-align: center;
+
+}
+a:hover {
+    opacity: .2;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 40px;
+}
+
+#findingsMobile::-webkit-scrollbar {
+    width: .05em; 
+    height: .3em;
+    background-color: #fff;
+}
+#findingsMobile::-webkit-scrollbar-thumb{
+    background-color: #ff6c00;
+    border-radius: 10px
+}
+#findingsMobile::-webkit-scrollbar-thumb:hover {
+    background-color: brown;
+}
+
+#findingsMobile{
+    overflow-x: auto;
+    white-space: nowrap;
+    color: whitesmoke
+}
+
+.findingsMobile {
+    display: inline-block;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}

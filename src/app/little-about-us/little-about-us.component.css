@@ -1,0 +1,18 @@
+.bg {
+    background-color: rgb(209, 216, 223);
+    color: rgb(23, 16, 48);
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+img {
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    opacity: 0.7;
+}
+
+h4 {
+    border-bottom: 3px double rgb(23, 16, 48);
+    padding-bottom: 10px;
+}
+
