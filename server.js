@@ -24,7 +24,7 @@ server.use(bodyParser.urlencoded({extended:true}));
 
 
 // Serve static files....
-server.use(express.static(__dirname + '/dist/biolaahmed')
+server.use(express.static(__dirname + '/dist/biolaahmed'));
 
 // Send all requests to index.html for mustaphahabeeb.herokuapp.com::::::::::::
 server.get('/*', function(req, res) {
