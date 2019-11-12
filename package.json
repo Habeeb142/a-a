@@ -1,4 +1,4 @@
-{
+  {
   "name": "biolaahmed",
   "version": "0.0.0",
   "scripts": {
@@ -46,6 +46,12 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.6"
+    "typescript": "~3.1.6",
+    "@angular/cli”: “1.4.9”,
+    "@angular/compiler-cli": "^4.4.6",
+  }
+      "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
   }
 }
