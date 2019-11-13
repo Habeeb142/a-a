@@ -96,7 +96,15 @@ blockquote {
         font-family: Arial, Helvetica, sans-serif
     }
     .card-header {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
