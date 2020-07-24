@@ -1,10 +1,9 @@
-  {
+{
   "name": "biolaahmed",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
-    "postinstall": "ng build --aot --prod",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -22,25 +21,24 @@
     "@angular/router": "~7.1.0",
     "@google/maps": "^1.0.2",
     "@types/googlemaps": "^3.38.0",
-     "body-parser": "^1.18.3",
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "formidable": "^1.2.1",
-   
-    "request" : "^2.88.0",
+    "request": "^2.88.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
-   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.11.0",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.1000.4",
     "@angular/cli": "~7.1.4",
     "@angular/compiler-cli": "~7.1.0",
     "@angular/language-service": "~7.1.0",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
@@ -55,7 +53,7 @@
     "typescript": "~3.1.6"
   },
   "engines": {
-  "node": "~8.15.1",
-  "npm": "~6.4.1"
-}
+    "node": "~8.15.1",
+    "npm": "~6.4.1"
+  }
 }
