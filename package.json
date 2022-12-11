@@ -23,7 +23,7 @@
     "@types/googlemaps": "^3.38.0",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "formidable": "^1.2.1",
     "request": "^2.88.0",
     "core-js": "^2.5.4",
